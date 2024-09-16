@@ -9,6 +9,7 @@ import ConfigUsers from './Pages/ConfigUsers'
 import CadastroPred from './Pages/CadastroPred'
 import CadastroSala from './Pages/CadastroSala'
 import CadastroDep from './Pages/CadastroDep'
+import MenuCadastro from './Pages/MenuCadastro';
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='login' element={<Login />} />
         <Route path='Cadastro' element={<Cadastro />} />
+        <Route path='CadastroPred' element={<CadastroPred />} />
+        <Route path='MenuCadastro' element={<MenuCadastro />} />
         
         {isLoggedIn && (
           <>
@@ -34,7 +37,7 @@ function App() {
             
             {isAdmin && (
               <>
-                <Route path='CadastroPred' element={<CadastroPred />} />
+               
                 <Route path='CadastroSala' element={<CadastroSala />} />
                 <Route path='CadastroDep' element={<CadastroDep />} />
               </>
