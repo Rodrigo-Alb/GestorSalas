@@ -1,46 +1,42 @@
-.header, .botoes{
-    display: flex;
-}
-.navContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.header{
+.header {
     width: 100%;
     max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
 }
-.logo{
+
+.logo {
     width: 8rem;
     padding: 0.5rem;
 }
-.botoes{
+
+.buttonsCenter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.buttonsRight {
     justify-content: flex-end;
-    width: 45%;
+    display: flex;
+    gap: 1rem;
 }
-.link{
+
+.linkButton, .commonButton {
     text-decoration: none;
-    padding: 0.5rem;
-    border: none;
-    margin-right: 3rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.cadastro{
-    background-color: #008DD8;
-    border-radius: 10px;
+
+.commonButton {
     color: white;
-}
-
-
-@media (max-width: 1000px){
-    .botoes{
-       width: 50%;
-    }
-}
-@media (max-width:520px){
-    .btn{
-        margin-right: 0.5rem;
-    }
+    background-color: #008DD8;
+    border-radius: 12px;
 }

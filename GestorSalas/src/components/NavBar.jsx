@@ -1,16 +1,23 @@
 import Logo from '../assets/Logo-3.png'
 import './NavBar.css'
 import { Link } from 'react-router-dom'
+
 export default function NavBar() {
   return (
-    <div className="navContainer">
-      <nav className='header'>
-          <img src={Logo} className='logo' alt="Logo Empresa " />
-          <ul className='botoes'>
-              <Link to='/login' className='link'>Logar</Link>
-              <Link to='/Cadastro' className='link cadastro'>Cadastre-se</Link>
-          </ul>
-      </nav>
-    </div>
+    <nav className='header'>
+      <div className='alocai'>
+        <img src={Logo} className='logo' alt="Logo Empresa" />
+      </div>
+
+      <div className='buttonsCenter'>
+        <Link to='/Solucao' className='linkButton'>Solução</Link>
+        <Link to='/Equipe' className='linkButton'>Equipe</Link>
+      </div>
+
+      <div className='buttonsRight'>
+        <Link to='/login' className='linkButton'>Logar</Link>
+        <Link to='/Cadastro' className='commonButton'>Cadastre-se</Link>
+      </div>
+    </nav>
   )
 }
