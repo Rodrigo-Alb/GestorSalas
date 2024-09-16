@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #003366;
+    font-weight: bold;
+    position: relative;
+    top: 1.5rem;
+}
+
+/* Container principal */
+.mainContainer {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título da página com imagem */
+.pageTitleForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    top: 2.4rem;
+    z-index: 3;
+}
+
+/* Formulário genérico */
+.formAlocar {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.742);
+}
+
+label {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    height: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+/* Botão padrão */
+button, .btn {
+    width: 30%;
+    height: 2.3rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #008DD8;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    transition: 0.5s;
+    background-color: #fff;
+    color: #008DD8;
+    border: 2px solid #008DD8;
+}

@@ -1,0 +1,39 @@
+/* Ajustes específicos para Cadastro de Sala */
+.containerFormSala {
+    width: 60%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.742);
+}
+
+.containerFormSala h2 {
+    font-size: 1.8rem;
+    color: #003366;
+}
+
+.containerFormSala label {
+    margin-top: 1.5rem;
+}
+
+.buttonSala {
+    width: 20%;
+    height: 2.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buttonSala:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
