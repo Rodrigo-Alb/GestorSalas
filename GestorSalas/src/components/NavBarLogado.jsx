@@ -19,7 +19,7 @@ export default function NavBarLogado() {
               <Link to='/Alocar' className='linkLogado'> <TiHomeOutline className='iconNavBarLogado'/> Home</Link>
               <Link to='/Alocar' className='linkLogado'><GrDocumentText className='iconNavBarLogado'/> Alocar</Link>
               <Link to='/Alocar' className='linkLogado'><HiOutlineClipboardDocumentCheck className='iconNavBarLogado'/> Solicitações</Link>
-              <Link to='/ConfigUsers' className='linkLogado'> <FaGear className='iconNavBarLogado'/> Configurações</Link>
+              <Link to='/MenuCadastro' className='linkLogado'> <FaGear className='iconNavBarLogado'/> Configurações</Link>
               <Link to='/' className='linkLogado'><MdExitToApp className='iconNavBarLogado'/> Sair</Link>
           </ul>
           <div></div>
