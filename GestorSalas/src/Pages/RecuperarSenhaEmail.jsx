@@ -4,12 +4,6 @@ import Estrela from '../assets/Estrela.png.png'
 
 export default function RecuperarSenhaEmail() {
 
-  const MulherLoginImg ={
-    position:'relative',
-    top:'5rem',
-    height:'30rem'
-  }
-
   return (
     <div className="containerLogin">
       
@@ -27,7 +21,7 @@ export default function RecuperarSenhaEmail() {
         </div>
 
         <form  className='form'>
-          <label htmlFor="email">E-mail para recuperção</label>
+          <label htmlFor="email">E-mail para recuperação</label>
           <input type="text" id="email" />
 
           <button className='btn'>
