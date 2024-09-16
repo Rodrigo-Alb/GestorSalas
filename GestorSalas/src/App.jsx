@@ -11,6 +11,7 @@ import CadastroSala from './Pages/CadastroSala'
 import CadastroDep from './Pages/CadastroDep'
 import MenuCadastro from './Pages/MenuCadastro';
 import RecuperarSenhaEmail from './Pages/RecuperarSenhaEmail';
+import RecuperarSenha from './Pages/RecuperarSenha';
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
         <Route path='CadastroPred' element={<CadastroPred />} />
         <Route path='MenuCadastro' element={<MenuCadastro />} />
         <Route path='RecuperarSenhaEmail' element={<RecuperarSenhaEmail/>} />
+        <Route path='RecuperarSenha' element={<RecuperarSenha/>} />
+
 
         
         {isLoggedIn && (
