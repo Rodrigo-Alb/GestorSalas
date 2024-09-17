@@ -13,6 +13,7 @@ import MenuCadastro from './Pages/MenuCadastro';
 import RecuperarSenhaEmail from './Pages/RecuperarSenhaEmail';
 import RecuperarSenha from './Pages/RecuperarSenha';
 import SolicitacoesUser from './Pages/SolicitacoesUser';
+import SolicitacoesAdm from './Pages/SolicitacoesAdm';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='RecuperarSenhaEmail' element={<RecuperarSenhaEmail/>} />
         <Route path='RecuperarSenha' element={<RecuperarSenha/>} />
         <Route path='SolicitacoesUser' element={<SolicitacoesUser/>} />
+        <Route path='SolicitacoesAdm' element={<SolicitacoesAdm/>} />
 
 
 

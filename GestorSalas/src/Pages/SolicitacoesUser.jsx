@@ -1,5 +1,4 @@
-
-import './SolicitacoesUser.css'
+import './Solicitacoes.css'
 import Estrela from '../assets/Estrela.png.png'
 
 
@@ -13,7 +12,7 @@ export default function SolicitacoesUser() {
     </div>
 
     <div className="containerForm">   
-        <h2>O que você deseja cadastrar?</h2>
+        <h2>Suas solicitações </h2>
 
         <div className='solicitacoesContainer'>
             <table>

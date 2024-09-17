@@ -1,3 +1,5 @@
+/* Estilos existentes */
+
 .mainContainer {
     width: 100vw;
     height: 80vh;
@@ -29,35 +31,36 @@
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.742);
-    overflow: auto; 
+    overflow: auto;
 }
 
 .solicitacoesContainer {
     width: 100%;
-    overflow-x: auto; 
+    overflow-x: auto;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+}
 
 th, td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
     font-weight: bold;
 }
 
 td {
-    background-color: #fff; 
+    background-color: #fff;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9;
 }
 
 h2 {
@@ -67,19 +70,31 @@ h2 {
     top: 1.5rem;
 }
 
-button {
-    width: 50%;
-    height: 2.3rem;
-    border-radius: 10px;
-    color: black;
-    background-color: #f8f8f8d7;
+/* Novos estilos para os botões de ação */
+
+table .btn-aceitar, table .btn-negar {
+    padding: 0.5rem 1rem;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
 }
 
-button:hover {
-    transition: 0.5s;
-    background-color: #fff;
-    color: #008DD8;
-    border: 2px solid #008DD8;
+.btn-aceitar {
+    background-color: #4CAF50; /* Verde para aceitar */
+    color: white;
+}
+
+.btn-aceitar:hover {
+    background-color: #45a049;
+}
+
+.btn-negar {
+    background-color: #f44336; /* Vermelho para negar */
+    color: white;
+}
+
+.btn-negar:hover {
+    background-color: #e53935;
 }
