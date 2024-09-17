@@ -1,4 +1,4 @@
-import './Home.css'
+import './Css/Home.css'
 import Welcome from '../components/HomeComponents/Welcome';
 import Solucao from '../components/HomeComponents/Solucao';
 import Equipe from '../components/HomeComponents/Equipe';

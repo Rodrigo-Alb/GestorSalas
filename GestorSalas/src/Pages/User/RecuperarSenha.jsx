@@ -1,5 +1,5 @@
-import './Login.css'
-import Estrela from '../assets/Estrela.png.png'
+import '../Css/Login.css'
+import Estrela from '../../assets/Estrela.png.png'
 
 
 export default function RecuperarSenha() {

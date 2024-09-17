@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import './Calendario.css'; // Importe o arquivo CSS
+import { useState, useEffect } from 'react';
+import '../Css/Calendario.css'
+
 
 const Calendario = () => {
   const [departments, setDepartments] = useState([]);

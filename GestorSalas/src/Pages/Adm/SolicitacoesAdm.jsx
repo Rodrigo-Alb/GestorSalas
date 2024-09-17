@@ -1,6 +1,5 @@
-import './Solicitacoes.css';
-import Estrela from '../assets/Estrela.png.png';
-
+import '../Css/Solicitacoes.css';
+import Estrela from '../../assets/Estrela.png.png'
 export default function SolicitacoesAdm() {
 
   return (

@@ -1,5 +1,5 @@
-import Estrela from '../assets/Estrela.png.png'
-import './Alocar.css'
+import Estrela from '../../assets/Estrela.png.png'
+import '../Css/Alocar.css'
 export default function Alocar() {
   return (
     <div className="mainContainer">

@@ -1,6 +1,6 @@
-import Estrela from '../assets/Estrela.png.png'
+import Estrela from '../../assets/Estrela.png.png'
 
-export default function CadastroDep() {
+export default function CadastroPred() {
   return (
     <div className="mainContainer">
 
@@ -9,28 +9,26 @@ export default function CadastroDep() {
         </div>
 
         <div className="containerForm">   
-            <h2>Cadastro de Departamentos</h2>
+            <h2>Cadastro de Prédios</h2>
             <form action="" className='formAlocar'>
-            <label htmlFor="Area">Área
-                    <input type="text" name="Area"/>
-                </label>
                 <label htmlFor="Nome">Nome
                     <input type="text" name="nome"/>
                 </label>
                 <label htmlFor="Universidade">Universidade
                     <input type="text" name="Universidade"/>
                 </label>
-                <label htmlFor="Nsalas">Número de Salas Disponíveis
-                    <input type="Number" name="Nsalas"/>
+                <label htmlFor="Logradouro">Logradouro
+                    <input type="text" name="Logradouro"/>
                 </label>
-                <label htmlFor="Diretor">Diretor do Departamento
-                    <input type="text" name="Diretor"/>
+                <label htmlFor="Cidade">Cidade
+                    <input type="text" name="Cidade"/>
                 </label>
-                <label htmlFor="Descricao">Descrição do Departamento
-                    <input type="text" name="Descricao"/>
+                <label htmlFor="CEP">CEP
+                    <input type="text" name="CEP"/>
                 </label>
-                
-              
+                <label htmlFor="Estado">Estado
+                    <input type="text" name="Estado"/>
+                </label>
             </form>
 
             <button>Salvar</button>

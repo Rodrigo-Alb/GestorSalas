@@ -1,6 +1,6 @@
-import './Cadastro.css'
-import Estrela from '../assets/Estrela.png.png'
-import HomemCadastro from '../assets/HomemCadastro.png'
+import '../Css/Cadastro.css'
+import Estrela from '../../assets/Estrela.png.png'
+import HomemCadastro from '../../assets/HomemCadastro.png'
 import {Link} from 'react-router-dom'
 
 export default function Cadastro() {

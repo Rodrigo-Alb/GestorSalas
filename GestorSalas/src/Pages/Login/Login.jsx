@@ -1,6 +1,6 @@
-import './Login.css'
-import Estrela from '../assets/Estrela.png.png'
-import MulherLogin from '../assets/MulherLogin.png'
+import '../Css/Login.css'
+import Estrela from '../../assets/Estrela.png.png'
+import MulherLogin from '../../assets/MulherLogin.png'
 import {Link} from 'react-router-dom';
 
 export default function Login() {

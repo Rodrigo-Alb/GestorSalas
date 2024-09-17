@@ -1,4 +1,4 @@
-import Estrela from '../assets/Estrela.png.png'
+import Estrela from '../../assets/Estrela.png.png'
 
 export default function CadastroSala() {
   return (

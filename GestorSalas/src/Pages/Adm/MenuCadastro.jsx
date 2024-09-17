@@ -1,4 +1,4 @@
-import Estrela from '../assets/Estrela.png.png'
+import Estrela from '../../assets/Estrela.png.png'
 import { Link } from 'react-router-dom'
 import './MenuCadastro.css';
 
