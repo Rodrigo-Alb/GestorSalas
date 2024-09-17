@@ -9,14 +9,19 @@ import ConfigUsers from './Pages/ConfigUsers'
 import CadastroPred from './Pages/CadastroPred'
 import CadastroSala from './Pages/CadastroSala'
 import CadastroDep from './Pages/CadastroDep'
+import SolicitacoesUser from './Pages/SolicitacoesUser'
+import SolicitacoesAdm from './Pages/SolicitacoesAdm'
+import RecuperarSenha from './Pages/RecuperarSenha'
+import RecuperarSenhaEmail from './Pages/RecuperarSenhaEmail'
+import MenuCadastro from './Pages/MenuCadastro'
+import Calendario from './Pages/User/Calendario'
 
 function App() {
   const location = useLocation();
   const showNavBar = location.pathname === '/' || location.pathname === '/login' || location.pathname === '/Cadastro';
 
-  // Supondo que você tenha uma lógica para verificar se o usuário está logado e se é admin
   const isLoggedIn = true;  
-  const isAdmin = false;     
+  const isAdmin = true;    
 
 
   return (
@@ -26,17 +31,22 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='login' element={<Login />} />
         <Route path='Cadastro' element={<Cadastro />} />
-        
+        <Route path='RecuperarSenha' element = {<RecuperarSenha/>} />
+        <Route path='RecuperarSenhaEmail' element = {<RecuperarSenhaEmail/>} />
         {isLoggedIn && (
           <>
+            <Route path='Calendario' element={< Calendario />} />
             <Route path='Alocar' element={<Alocar />} />
             <Route path='ConfigUsers' element={<ConfigUsers />} />
+            <Route path = 'SolicitacoesUser' element={<SolicitacoesUser/>}/>
             
             {isAdmin && (
               <>
                 <Route path='CadastroPred' element={<CadastroPred />} />
                 <Route path='CadastroSala' element={<CadastroSala />} />
                 <Route path='CadastroDep' element={<CadastroDep />} />
+                <Route path='SolicitacoesAdm' element = {< SolicitacoesAdm />} />
+                <Route path = 'MenuCadastro' element = {<MenuCadastro/>} />
               </>
             )}
           </>

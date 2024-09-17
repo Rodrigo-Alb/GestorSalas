@@ -16,7 +16,7 @@ export default function NavBarLogado() {
        <nav className='header'>
           <img src={Logo} className='logo' alt="Logo Empresa " />
           <ul className='linkContainer'>
-              <Link to='/Alocar' className='linkLogado'> <TiHomeOutline className='iconNavBarLogado'/> Home</Link>
+              <Link to='/Calendario' className='linkLogado'> <TiHomeOutline className='iconNavBarLogado'/> Home</Link>
               <Link to='/Alocar' className='linkLogado'><GrDocumentText className='iconNavBarLogado'/> Alocar</Link>
               <Link to='/Alocar' className='linkLogado'><HiOutlineClipboardDocumentCheck className='iconNavBarLogado'/> Solicitações</Link>
               <Link to='/ConfigUsers' className='linkLogado'> <FaGear className='iconNavBarLogado'/> Configurações</Link>
