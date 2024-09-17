@@ -12,6 +12,7 @@ import CadastroDep from './Pages/CadastroDep'
 import MenuCadastro from './Pages/MenuCadastro';
 import RecuperarSenhaEmail from './Pages/RecuperarSenhaEmail';
 import RecuperarSenha from './Pages/RecuperarSenha';
+import SolicitacoesUser from './Pages/SolicitacoesUser';
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
         <Route path='MenuCadastro' element={<MenuCadastro />} />
         <Route path='RecuperarSenhaEmail' element={<RecuperarSenhaEmail/>} />
         <Route path='RecuperarSenha' element={<RecuperarSenha/>} />
+        <Route path='SolicitacoesUser' element={<SolicitacoesUser/>} />
+
 
 
         
